@@ -1,0 +1,36 @@
+ile Encryption/Decryption Tool
+Overview
+The File Encryption/Decryption Tool is a web-based application that allows users to securely encrypt and decrypt files using AES-GCM encryption. This tool is designed to protect sensitive information by converting files into a coded format that can only be accessed with the correct password or key.
+
+Features
+User-Friendly Interface: Simple and intuitive design for easy file selection and password entry.
+Secure Encryption: Utilizes AES-GCM encryption to ensure data confidentiality.
+Decryption Capability: Allows users to decrypt files using the same password used for encryption.
+Download Processed Files: Users can download the encrypted or decrypted files directly from the interface.
+Cross-Platform: Works on any modern web browser without the need for installation.
+Technologies Used
+HTML5
+CSS3
+JavaScript
+Web Crypto API
+How to Use
+Open the Tool: Open the file-encryption-tool.html file in a web browser.
+Select a File: Click on the "Select File" button to choose the file you want to encrypt or decrypt.
+Enter Password: Input a password or key in the provided text box. This will be used for both encryption and decryption.
+Encrypt or Decrypt:
+To encrypt the file, click the "Encrypt" button. The tool will process the file and provide a download link for the encrypted file.
+To decrypt a file, select the encrypted file and click the "Decrypt" button. The tool will process the file and provide a download link for the decrypted file.
+Download the Result: Click the download link to save the processed file to your device.
+Security Considerations
+Ensure that you use a strong password for encryption to enhance security.
+Do not share your password with others, as it is required for decryption.
+The tool does not store any files or passwords; all operations are performed locally in your browser.
+Limitations
+The tool is designed for small to medium-sized files. Very large files may take longer to process or may not be supported due to browser limitations.
+The encrypted files must be decrypted using the same password used for encryption.
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
+
+Acknowledgments
+Inspired by the need for secure file handling in a digital age.
+Thanks to the developers of the Web Crypto API for providing a robust framework for cryptographic operations.
