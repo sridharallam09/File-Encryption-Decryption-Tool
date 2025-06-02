@@ -1,4 +1,4 @@
-ile Encryption/Decryption Tool
+File Encryption/Decryption Tool
 Overview
 The File Encryption/Decryption Tool is a web-based application that allows users to securely encrypt and decrypt files using AES-GCM encryption. This tool is designed to protect sensitive information by converting files into a coded format that can only be accessed with the correct password or key.
 
